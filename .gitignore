@@ -1,0 +1,11 @@
+# Fingerprint captures are biometric data - never commit them.
+*.pgm
+*.bmp
+*.raw
+frames/
+touches/
+# Build output / vendor binaries
+*.pkg.tar.zst
+*.dll
+*.cab
+__pycache__/
