@@ -87,8 +87,8 @@ straight to the password when the lid is shut.
 - **Only one finger is used.** The driver disables "identify", so fprintd
   checks only the *first* enrolled finger (fprintd's order puts left-hand
   fingers before right-hand ones). Enrolling a second finger can silently
-  replace the one PAM checks. Enroll one finger only.
-- **Not yet confirmed:** behaviour after reboot and suspend/resume.
+  replace the one PAM checks. Enroll one finger only.  Its kind of a pain
+  to use a left handed finger on this sensor anyway.
 - **No security certification.** The matcher is a closed-source vendor DLL
   running inside fprintd, and false-accept rates are unknown.
 - **Keyring:** a fingerprint login can't unlock a password-protected
